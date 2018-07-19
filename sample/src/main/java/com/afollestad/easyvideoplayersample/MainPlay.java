@@ -20,8 +20,6 @@ public class MainPlay extends AppCompatActivity implements SensorEventListener {
     private SensorManager mSensorManager;
     private ShakeEventListener mSensorListener;
     boolean stat = false;
-    AlertDialog.Builder alert;
-    AlertDialog alert1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
